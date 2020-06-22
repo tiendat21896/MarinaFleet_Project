@@ -1,0 +1,58 @@
+.contact-left-side{
+    font-size: 16px;
+}
+.contact-left-side, .contact-right-side{
+    padding: 5px 25px;
+    margin: 15px auto;
+}
+.contact-left-side h2, .contact-right-side h2{
+    margin-top: 10px;
+}
+.contact-right-side ul{
+    padding-left: 0;
+}
+.contact-right-side ul li{
+    list-style: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.contact-right-side i{
+    margin-right: 5px;
+    font-size: 18px;
+    color: #1a1f2b;
+}
+.contact-right-side .social-media i{
+    font-size: 48px;
+}
+.footer{
+    background-color: #1a1f2b;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: #FFFFFF;
+}
+.footer a{
+    color: #FFFFFF;
+}
+.footer i{
+    margin-right: 10px;
+}
+.footer h3{
+    display: inline-block;
+    border-bottom: solid 1px #FFFFFF;
+    line-height: 1.5;
+}
+.footer input{
+    width: 100%;
+    line-height: 2;
+    color: #1a1f2b;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.footer button{
+    color: #000000;
+    background-color: #FFFFFF;
+    margin-top: 15px;
+    padding: 5px 15px;
+    border: solid 1px #E8E8E8;
+    font-weight: bold;
+}

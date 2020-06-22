@@ -1,0 +1,305 @@
+.product-filter {
+    background: #efefef;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+    visibility: hidden;
+}
+.product-filter .product-filter-status {
+    background: #0b0b0b;
+    color: #fff;
+    font-size: 12px;
+    padding: 10px 0;
+    display: none;
+}
+
+.product-filter h4 {
+    font-size: 13px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: black;
+    display: inline-block;
+}
+
+.product-filter .product-filter-field {
+    padding: 10px 0;
+}
+.product-filter .product-filter-price {
+    position: relative;
+    min-height: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.noUi-target {
+    border-radius: 4px;
+    border: 1px solid #D3D3D3;
+    box-shadow: inset 0 1px 1px #F0F0F0, 0 3px 6px -5px #BBB;
+}
+.noUi-background {
+    background: #FAFAFA;
+}
+.noUi-horizontal {
+    height: 10px;
+}
+.noUi-target {
+    position: relative;
+    direction: ltr;
+}
+.noUi-base {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+}
+.noUi-origin {
+    border-radius: 2px;
+}
+.noUi-connect {
+    background: black;
+    box-shadow: inset 0 0 3px rgba(51,51,51,0.45);
+    transition: background 450ms;
+}
+.noUi-origin {
+    position: absolute;
+    right: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+.noUi-horizontal .noUi-handle {
+    width: 16px;
+    height: 20px;
+    left: -9px;
+    top: -10px;
+}
+
+.noUi-handle {
+    border: 1px solid #A7A7A7;
+    border-bottom: none;
+    border-radius: 3px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background: rgba(255,255,255,0.7);
+    cursor: default;
+    box-shadow: inset 0 0 1px #FFF, inset 0 1px 7px #EBEBEB, 0 3px 6px -3px #BBB;
+    position: relative;
+    /* overflow: hidden; */
+}
+.noUi-handle:before {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 12px;
+    width: 12px;
+    background: #fff;
+    border-bottom: 1px solid #A7A7A7;
+    border-left: 1px solid #A7A7A7;
+    border-radius: 3px;
+    background: rgba(255,255,255,0.5);
+    cursor: default;
+    transform: rotate(-45deg);
+    bottom: -6px;
+    left: 1px;
+    background: linear-gradient(45deg, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.7) 50%, transparent 50%, transparent 100%);
+}
+.noUi-origin {
+    border-radius: 2px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+.noUi-horizontal .noUi-handle {
+    width: 16px;
+    height: 20px;
+    left: -9px;
+    top: -10px;
+}
+.noUi-pips-horizontal {
+    padding: 5px 0;
+    height: 80px;
+    top: 100%;
+    left: 0;
+    width: 100%;
+}
+.noUi-pips {
+    position: absolute;
+    color: #0b0b0b;
+}
+.noUi-marker-horizontal.noUi-marker-large {
+    height: 10px;
+}
+.noUi-marker-horizontal.noUi-marker {
+    margin-left: -1px;
+    width: 1px;
+    height: 5px;
+}
+.noUi-marker-large {
+    background: #AAA;
+}
+
+.noUi-marker {
+    position: absolute;
+    background: #CCC;
+}
+.noUi-value-horizontal {
+    -webkit-transform: translate3d(-50%,100%,0);
+    transform: translate3d(-50%,100%,0);
+}
+.noUi-value {
+    position: absolute;
+    text-align: center;
+    font-size: 11px;
+    width: 100%;
+}
+.noUi-marker-horizontal.noUi-marker {
+    margin-left: -1px;
+    width: 1px;
+    height: 5px;
+}
+.noUi-marker {
+    position: absolute;
+    background: #CCC;
+}
+.product-filter .input-group.new-boats {
+    width: 80%;
+}
+.product-filter .input-group {
+    width: 60%;
+    margin-top: 50px;
+}
+.product-filter .input-group input.form-control {
+    width: 45%;
+    margin-right: 5px;
+    color: #5d5d5d;
+}
+.product-filter .input-group span.input-group-addon {
+    border: 1px solid #ccc;
+    color: #bbb;
+}
+.input-group {
+    position: relative;
+    display: table;
+    border-collapse: separate;
+}
+
+.input-group-btn {
+    position: relative;
+    font-size: 0;
+    white-space: nowrap;
+}
+.product-filter .btn-currency-switch {
+    margin-right: 5px !important;
+}
+.input-group-btn>.btn {
+    position: relative;
+}
+.btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.48;
+    border-radius: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.product-clear-filter {
+    display: inline-block;
+    float: right;
+    font-size: 11px;
+    transition: all .4s ease;
+    color: #bbb;
+}
+.product-filter .filter-brand-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+.product-filter .filter-brand-list .filter-brand-list-item {
+    width: 30%;
+    display: inline-block;
+    padding: 0;
+    height: 56px;
+    background: #fff;
+    margin-right: 5px;
+}
+.product-filter .filter-brand-list .filter-brand-list-item .lbCheckbox {
+    font-size: 18px;
+    cursor: pointer;
+    position: relative;
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0;
+}
+.product-filter .filter-brand-list .filter-brand-list-item .lbCheckbox>input[type=checkbox] {
+    display: none;
+}
+.product-filter .filter-brand-list .filter-brand-list-item .lbCheckbox>.img-label {
+    border: 5px solid #fff;
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    transition: all .4s ease;
+}
+.product-filter .filter-brand-list .filter-brand-list-item .lbCheckbox>.img-label img {
+    max-width: 90%;
+    max-height: 90%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+}
+img {
+    vertical-align: middle;
+}
+
+.product-filter-count .product-filter-count-content .btn-show-results {
+    margin-left: 10px;
+    border: 1px solid black;
+    font-size: 15px;
+    text-transform: uppercase;
+    background: black;
+    color: #fff;
+}
+.product-filter-count .product-filter-count-content {
+    border-top: 1px solid #DADADA;
+    text-align: center;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: black;
+    padding-top: 10px;
+    margin-bottom: 0;
+}
+
+
+
+
+
+

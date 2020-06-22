@@ -1,0 +1,33 @@
+.used-boats-banner{
+    background: rgba(0,0,0,0.5);
+    bottom: 10px;
+    padding: 2.5px 15px;
+    width: 95%;
+    left: 15px;
+    text-align: justify;
+}
+.used-boats-banner h3{
+    line-height: 1;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+.used-boats-banner p{
+    line-height: 1;
+}
+.list-item-search{
+    padding: 20px 15px;
+    text-align: right;
+}
+.list-item-search button{
+    line-height: 2;
+    padding: 5px 30px;
+    background-color: #1a1f2b;
+    color: #FFFFFF;
+    border: none;
+    margin-right: 5px;
+}
+.list-item-search input{
+    line-height: 1.75;
+    padding: 5px 15px;
+    margin-right: 5px;
+}

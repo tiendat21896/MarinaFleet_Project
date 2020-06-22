@@ -1,0 +1,87 @@
+.banner-min-height{
+    min-height: 165px;
+}
+.used-boats-banner{
+    background: rgba(0,0,0,0.5);
+    bottom: 10px;
+    padding: 2.5px 15px;
+    width: 92%;
+    left: 15px;
+    text-align: justify;
+}
+.used-boats-banner h3{
+    line-height: 1;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+.used-boats-banner p{
+    line-height: 1;
+}
+.list-item-search{
+    padding: 20px 15px;
+    text-align: right;
+}
+.list-item-search button{
+    line-height: 2;
+    padding: 5px 30px;
+    background-color: #1a1f2b;
+    color: #FFFFFF;
+    border: none;
+    margin-right: 5px;
+}
+.list-item-search input{
+    line-height: 1.95;
+    padding: 5px 15px;
+    margin-right: 5px;
+    border: solid 1px #E8E8E8;
+}
+.product-list .new-price{
+    color: #FF0000;
+    font-size: 16px;
+}
+.product-list .availability-tag{
+    position: absolute;
+    z-index: 10;
+    right: 20px;
+    top: 0;
+    background-color: #56AB2F;
+    color: #FFFFFF;
+    padding: 2.5px 10px;
+}
+.product-list .new-tag{
+    position: absolute;
+    z-index: 10;
+    right: 20px;
+    top: 0;
+    background-color: #FF512F;
+    color: #FFFFFF;
+    padding: 2.5px 10px;
+}
+.product-list .price-reduction-tag{
+    position: absolute;
+    z-index: 10;
+    right: 20px;
+    top: 0;
+    background-color: #DE6262;
+    color: #FFFFFF;
+    padding: 2.5px 10px;
+}
+.product-list .sold-out-tag{
+    position: absolute;
+    z-index: 10;
+    right: 20px;
+    top: 0;
+    background-color: #DE6262;
+    color: #FFFFFF;
+    padding: 2.5px 10px;
+}
+
+.product-title{
+    height: 60px;
+}
+.product-title h3{
+    font-size: 24px;
+}
+.price{
+    color: #FF0000;
+}

@@ -1,0 +1,33 @@
+.booking{
+    border: solid 1px #1a1f2b;
+    margin-bottom: 25px;
+}
+.booking-left-side{
+    background: url(https://res.cloudinary.com/vietanhdev/image/upload/v1574345928/images/booking-form/image15_ome8pr.png) no-repeat center;
+    text-align: center;
+    color: #1a1f2b;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.booking-left-side p{
+    line-height: 1.75;
+}
+.booking-right-side{
+    background-color: #1a1f2b;
+    color: #FFFFFF;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.booking-right-side input{
+    margin-bottom: 25px;
+}
+.get-in-touch{
+    text-align: center;
+    margin-top: 25px;
+}
+.get-in-touch button{
+    padding: 15px 25px;
+    background-color: #85A5CC;
+    color: #FFFFFF;
+    border: none;
+}

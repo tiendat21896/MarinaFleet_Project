@@ -1,0 +1,105 @@
+.tag-banner {
+    border: solid 1px #E8E8E8;
+    text-align: center;
+    height: 200px;
+    margin-bottom: 25px;
+    background: url(http://themes.quitenicestuff2.com/yachtcharterwp/wp-content/uploads/2016/10/image18.jpg) top center;
+    align-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.con-col-banner{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.collection-banner img{
+    width: 100%;
+}
+.collection-banner-caption{
+    position: absolute;
+    right: 0;
+    bottom: 40px;
+    left: 65%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+.collection-banner-caption img{
+    width: 65%;
+}
+.product-list h2{
+    padding: 15px 15px;
+    background-color: #1a1f2b;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    line-height: 1;
+    margin-top: 5px;
+}
+.product-list .product-list-item{
+    margin-bottom: 75px;
+    text-align: center;
+}
+.product-list .product-list-item a{
+    color: #1a1f2b;
+}
+.product-list .product-list-item a:hover{
+    text-decoration: none;
+    color: #337ab7;
+}
+.product-list-item .product-thumbnail{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.product-list-item .product-thumbnail img{
+    width: 100%;
+}
+.product-list-item .product-title{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.product-list-item .product-desc{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+}
+.product-list-item .availability-tag{
+    position: absolute;
+    z-index: 10;
+    right: 20px;
+    top: 0;
+    background-color: #56AB2F;
+    color: #FFFFFF;
+    padding: 2.5px 10px;
+}
+.product-list-item .new-tag{
+    position: absolute;
+    z-index: 10;
+    right: 20px;
+    top: 0;
+    background-color: #FF512F;
+    color: #FFFFFF;
+    padding: 2.5px 10px;
+}
+.product-list-item .price-reduction-tag{
+    position: absolute;
+    z-index: 10;
+    right: 20px;
+    top: 0;
+    background-color: #DE6262;
+    color: #FFFFFF;
+    padding: 2.5px 10px;
+}
+.product-list-item .sold-out-tag{
+    position: absolute;
+    z-index: 10;
+    right: 20px;
+    top: 0;
+    background-color: #DE6262;
+    color: #FFFFFF;
+    padding: 2.5px 10px;
+    visibility: hidden;
+}

@@ -1,0 +1,24 @@
+/*tintuc trang con vanh thêm css ae sờ cai nhé*/
+p.baiviet-gach{
+    font-size: smaller;
+    border-bottom: rgba(128,128,128,0.32) solid 1px;
+    text-align: right;
+    font-style: italic;
+    padding-bottom: 5px;
+    margin-bottom: 25px;
+}
+p {
+    margin: 0 0 10px;
+}
+p img {
+    vertical-align: middle;
+    width: 100%;
+}
+/*nút qay lại nè*/
+.back-to-list {
+    margin-top: 25px;
+    text-align: right;
+}
+.footer{
+    margin-top: 20px;
+}
